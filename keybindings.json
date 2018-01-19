@@ -1,0 +1,13 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "ctrl+e",
+        "command": "editor.emmet.action.expandAbbreviation",
+        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    },
+    {
+        "key": "tab",
+        "command": "-editor.emmet.action.expandAbbreviation",
+        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    }
+]

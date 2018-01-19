@@ -1,0 +1,15 @@
+{
+    "editor.renderWhitespace": "all",
+    "sublimeTextKeymap.promptV3Features": true,
+    "workbench.colorTheme": "Monokai",
+
+    // ファイルの読み取り/書き込みで使用する既定の文字セット エンコーディング。言語ごとに構成することも可能です。
+    "files.encoding": "utf8",
+
+    // 有効な場合、ファイルを開くときに文字セット エンコードを推測します。言語ごとに構成することも可能です。
+    "files.autoGuessEncoding": true,
+
+    // 既定の改行文字。LF の場合には \n を CRLF の場合には \r\n を使用してください。
+    "files.eol": "\n",
+    "workbench.panel.location": "bottom"
+}
