@@ -1,15 +1,27 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
+    // エディターで空白文字を表示する方法を制御します。'none'、'boundary' および 'all' が使用可能です。'boundary' オプションでは、単語間の単一スペースは表示されません。
     "editor.renderWhitespace": "all",
-    "sublimeTextKeymap.promptV3Features": true,
-    "workbench.colorTheme": "Monokai",
-
+    // 行の折り返し方法を制御します。次の値を指定できます。
+    //  - 'off' (折り返さない),
+    //  - 'on' (ビューポート折り返し),
+    //  - 'wordWrapColumn' ('editor.wordWrapColumn' で折り返し) or
+    //  - 'bounded' (ビューポートと 'editor.wordWrapColumn' の最小値で折り返し).
+    "editor.wordWrap": "on",
+    // ファイル保存時に.editorconfigのルールで自動整形
+    "editor.formatOnSave": true,
     // ファイルの読み取り/書き込みで使用する既定の文字セット エンコーディング。言語ごとに構成することも可能です。
     "files.encoding": "utf8",
-
     // 有効な場合、ファイルを開くときに文字セット エンコードを推測します。言語ごとに構成することも可能です。
     "files.autoGuessEncoding": true,
-
     // 既定の改行文字。LF の場合には \n を CRLF の場合には \r\n を使用してください。
     "files.eol": "\n",
-    "workbench.panel.location": "bottom"
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "eslint.autoFixOnSave": true,
+    "javascript.validate.enable": false,
+    "[bat]": {}
 }
